@@ -1,4 +1,4 @@
-﻿Feature: Cadastro e Login na plataforma
+Background: Cadastro e Login na plataforma
 
 Scenario: Login correto
 Given que esteja na pagina do Seu Barriga

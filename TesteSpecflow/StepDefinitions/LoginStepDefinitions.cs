@@ -25,7 +25,7 @@ namespace TesteSpecflow.StepDefinitions
         [When(@"preencher os dados de login da plataforma")]
         public void WhenPreencherOsDadosDeLoginDaPlataforma()
         {
-            loginPage.PreencherLogin("standard_user","123",driver);
+            loginPage.PreencherLogin("standard_user","sauce_secret",driver);
         }
 
         [Then(@"clicando em entrar terei feito o login")]
